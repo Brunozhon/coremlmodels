@@ -1,0 +1,26 @@
+modelDescription: 
+inputs: (
+    "text : String"
+)
+outputs: (
+    "label : String"
+)
+predictedFeatureName: (null)
+predictedProbabilitiesName: (null)
+updatable: NO
+trainingInputs: (
+)
+parameters: (
+)
+metadata: {
+    MLModelAuthorKey = "";
+    MLModelCreatorDefinedKey =     {
+    };
+    MLModelDescriptionKey = "This model is a text classifier (version 1) which classifies text according to set {positive,negative,neutral}";
+    MLModelLicenseKey = "";
+    MLModelVersionStringKey = "";
+}, 
+configuration: 
+ computeUnits: All, 
+ allowLowPrecisionAccumulationOnGPU: NO, 
+ preferredMetalDevice: (null)
